@@ -9,8 +9,8 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt các công c
 ## 2. Clone Repository
 Clone dự án từ GitHub:
 ```sh
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/doanndev/demo-kubernetes.git
+cd demo-kubernetes
 ```
 
 ## 3. Chạy Minikube
@@ -63,8 +63,8 @@ minikube start
 ## 6. Xóa Ứng Dụng (Nếu Cần)
 Nếu bạn muốn gỡ bỏ ứng dụng:
 ```sh
-kubectl delete deployment my-app
-kubectl delete svc my-app-service
+kubectl delete deployment chating-app
+kubectl delete svc chating-app-service
 ```
 
 🚀 **Ứng dụng đã được triển khai thành công!**
